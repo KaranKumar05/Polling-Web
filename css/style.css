@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #1d1d1d;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.container> h1{
+    padding: 1em 0;
+    color: white;
+    background: linear-gradient(to bottom, black, #1d1d1d);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    border: 2px solid rgb(255, 255, 255);
+    gap: 2em;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+}
+.container form h1{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+.container form input{
+    font-size: 1.3em;
+    padding: 3px;
+    color: white;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.container form input::placeholder{
+    color: white;
+}
+.container form button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: none;
+    background-color: green;
+    color: white;
+    transition: .3s;
+}
+.container form button:hover{
+    background-color: rgb(1, 103, 1);
+}
+.container form p{
+    color: white;
+}
+.container form p a{
+    text-decoration: none;
+    color: green;
+}
